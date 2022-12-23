@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2022 Sodexis License OPL-1 (See LICENSE file for full copyright
+    and licensing details). -->
+<odoo>
+   <template id="assets_backend" name="assets" inherit_id="web.assets_backend">
+       <xpath expr="." position="inside">
+           <link rel="stylesheet" type="text/scss" href="/one2many_pager_alignment/static/src/scss/control_panel.scss"/>
+       </xpath>
+   </template>
+</odoo>
